@@ -31,6 +31,6 @@ int main()
 		//overwrite the contenets of the userName variable
 		std::getline(std::cin, userName);
 
-		std::cout << ""UPDATED user name to : " << userName << "\n";
+		std::cout << "UPDATED user name to : " << userName << "\n";
 	}
 }

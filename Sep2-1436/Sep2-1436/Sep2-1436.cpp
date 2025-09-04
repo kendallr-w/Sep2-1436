@@ -1,3 +1,4 @@
+#include <cctype>
 #include <iostream> 
 #include <string>
 
@@ -5,7 +6,7 @@ int main()
 {	
 
 
-	const float PI = 3.14; //the decimal point can "float"
+	const double PI = 3.14; //the decimal point can "float"
 	auto someNumber = 12; //the single equal sign is an assignment operator
 	auto someLetter = 'z'; //zed
 
@@ -21,7 +22,7 @@ int main()
 
 	std::cout << "You entered: " << userName << "/n";
 
-	std::cout << "Art thou happy with this?\n";
+	std::cout << "Are you happy with this?\n";
 	std::string happyResponse;
 	std::getline(std::cin, happyResponse);
 
@@ -32,5 +33,26 @@ int main()
 		std::getline(std::cin, userName);
 
 		std::cout << "UPDATED user name to : " << userName << "\n";
+
+	}
+}
+
+static void Func(int)
+{
+	char someLetter = 'z';
+	someLetter = 'a';
+
+	std::cout << "The variable someLetter contains the value: " << someLetter << "\n";
+	std::string myName = "Bear";
+	std::cout << "My name is" << myName << "\n";
+	std::cout << "Do you want to change that?\n";
+
+	std::string response = "";
+	std::getline(std::cin, response);
+
+	if (response == "yes")
+	{
+		std::cout << "Enter your NEW name:\n";
+
 	}
 }

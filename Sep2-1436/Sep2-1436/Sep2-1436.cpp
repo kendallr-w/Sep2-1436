@@ -32,27 +32,6 @@ int main()
 		//overwrite the contenets of the userName variable
 		std::getline(std::cin, userName);
 
-		std::cout << "UPDATED user name to : " << userName << "\n";
-
-	}
-}
-
-static void Func(int)
-{
-	char someLetter = 'z';
-	someLetter = 'a';
-
-	std::cout << "The variable someLetter contains the value: " << someLetter << "\n";
-	std::string myName = "Bear";
-	std::cout << "My name is" << myName << "\n";
-	std::cout << "Do you want to change that?\n";
-
-	std::string response = "";
-	std::getline(std::cin, response);
-
-	if (response == "yes")
-	{
-		std::cout << "Enter your NEW name:\n";
-
+		std::cout << ""UPDATED user name to : " << userName << "\n";
 	}
 }

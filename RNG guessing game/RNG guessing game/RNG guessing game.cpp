@@ -70,7 +70,7 @@ int main()
 			std::cout << "TOO LOW!\n";
 		}
 	}
-	if (!gameWon)
+	if (!gameWon) //alternaitve is: gameWon (==) false
 	{
 		std::cout << "Too many guess - fat L\n";
 	}

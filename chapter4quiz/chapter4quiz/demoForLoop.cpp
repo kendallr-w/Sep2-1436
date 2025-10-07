@@ -17,8 +17,7 @@ void firstSimpleForLoopDemo()
 	std::system("finalCountdown.wav");
 }
 
-int main()
-{
+void demoVariousForLoopThings() {
 	const std::string myName = "Kendall Reed-Warren";
 
 	for (char currentLetter : myName)
@@ -35,7 +34,21 @@ int main()
 	for (long long int i = 0); i < 10'000'000'000; ++i)
 	{
 		if (i > 9'900'000'000)
-	
-		//std::cout << i << "\n";
+
+			//std::cout << i << "\n";
 	}
+}
+
+int main()
+{
+	for (int outerLoopCounter = 0; outerLoopCounter < 5; ++outerLoopCounter)
+	{
+		for (int innerLoopCounter = 1; innerLoopCounter < 4; ++innerLoopCounter)
+		{
+			std::cout << "Outer loop counter value is: " << outerLoopCounter
+				<< "\tAND the INNER loop counter is: " << innerLoopCounter << "\n";
+		}
+		std::cout << "\n";
+	}
+
 }

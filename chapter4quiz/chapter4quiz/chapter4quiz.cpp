@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-int main()
+void chapterFourQuiz()
 {
     int a, b, c;
 
@@ -34,6 +34,29 @@ int main()
     {
         std::cout << "The equation has no real solutions." << std::endl;
     }
+}
 
-    return 0;
+int main()
+{
+	int num1, num2;
+    int theSmallerInteger;
+
+	std::cout << "Enter the first integer: ";
+    std::cin >> num1;
+
+	std::cout << "Enter the second integer: ";
+	std::cin >> num2;
+
+    if (num1 < num2)
+    {
+		theSmallerInteger = num1;
+    }
+    else
+    {
+        theSmallerInteger = num2;
+    }
+
+    double result = pow(theSmallerInteger, 4);
+
+    std::cout << "The smaller integer raised to the "
 }

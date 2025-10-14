@@ -15,6 +15,8 @@ void doSomethingElse();
 
 bool isThisClassExcitingYet()
 {
+	int dozen = 12;
+
 	std::cout << "Well is it?\n";
 
 	std::string userResponse;

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36221.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiceRollSim", "DiceRollSim\DiceRollSim.vcxproj", "{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Debug|x64.ActiveCfg = Debug|x64
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Debug|x64.Build.0 = Debug|x64
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Debug|x86.ActiveCfg = Debug|Win32
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Debug|x86.Build.0 = Debug|Win32
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Release|x64.ActiveCfg = Release|x64
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Release|x64.Build.0 = Release|x64
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Release|x86.ActiveCfg = Release|Win32
+		{EDAC104C-971F-4BF8-9EE8-3F072F1F7F43}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56A71EE4-BB23-4556-AFFE-C00B59E97B4E}
+	EndGlobalSection
+EndGlobal

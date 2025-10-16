@@ -7,7 +7,7 @@ int main()
 	std::cin >> userInput;
 
 	unsigned long long factorialResult = 1; //unsigned long long to handle larger results
-	for (int i = 1; i <= userInput; i++) 
+	for (int i = 1; i <= userInput; i++)
 	{
 		factorialResult = factorialResult * i;
 	}

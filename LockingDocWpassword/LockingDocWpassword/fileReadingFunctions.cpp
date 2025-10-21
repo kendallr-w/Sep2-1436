@@ -1,6 +1,6 @@
 #include "fileReadingFunctions.h"
 #include <iostream>
-
+#include <fstream>
 #include <string>
 
 std::string promptForPassword()
@@ -27,5 +27,5 @@ void displayContentsOfFile(std::string filename)
 	{
 		std::cout << currentLineInFile << '\n';
 	}
-	
+
 }

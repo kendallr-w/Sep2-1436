@@ -1,11 +1,12 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-
-#include <fileReadingFunctions.h>
+#include "fileReadingFunctions.h"
 
 int main()
 {
+	std::string filename = "secretFile.txt";
+
 	std::cout << "Enter a password (for locking a file)\n";
 	std::string correctPassword;
 	std::getline(std::cin, correctPassword);
@@ -24,5 +25,6 @@ int main()
 			displayContentsOfFile(filename);
 		}
 	}
+}
 		
 

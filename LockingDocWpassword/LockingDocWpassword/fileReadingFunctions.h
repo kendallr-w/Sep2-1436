@@ -3,4 +3,4 @@
 
 std::string promptForPassword();
 
-void 
+void displayContentsOfFile(std::string filename);
